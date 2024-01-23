@@ -80,7 +80,7 @@ namespace Google.Apis.YouTube.Samples
         HttpClientInitializer = credential,
         ApplicationName = this.GetType().ToString()
       });
-
+           // var list = youtubeService.PlaylistItems;
       // Create a new, private playlist in the authorized user's channel.
       var newPlaylist = new Playlist();
       newPlaylist.Snippet = new PlaylistSnippet();
